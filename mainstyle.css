@@ -1,0 +1,38 @@
+
+body	{
+	background-color: black;
+	font-size: 20px;
+	color: white;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+}
+#navBar	{
+	/*background-color: black;
+	margin-left: auto;
+	margin-right: auto;*/
+	border-style: solid;
+	border-bottom: 5px solid red;
+}
+#teaser	{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 1920px;
+	height: 620px;
+	margin-top: 5em;
+}
+
+a{
+	text-decoration: none;
+	font-size: 30px;
+	color: blue;
+	text-align: center;
+}
+a:visited{
+	text-decoration: none;
+	color: blue;
+}

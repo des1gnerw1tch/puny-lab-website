@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Forever Falling</title>
+  <script type="text/javascript" src="phaser.js"></script>
+   <script type="text/javascript" src="scenes/LoadScene.js"></script>
+   <script type="text/javascript" src="scenes/CutScene.js"></script>
+    <script type="text/javascript" src="scenes/MenuScene.js"></script>
+    <script type="text/javascript" src="scenes/TitleScene.js"></script>
+    <script type="text/javascript" src="scenes/OptionsScene.js"></script>
+    <script type="text/javascript" src="scenes/GameScene.js"></script>
+    <script type="text/javascript" src="scenes/JumpingScene.js"></script>
+    <script type="text/javascript" src="scenes/KillScene.js"></script>
+    <script type="text/javascript" src="scenes/EndScene.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../mainstyle.css">
+
+    <style type="text/css">
+        body {
+            /*margin: 0px;*/
+            /*margin-left: auto;
+            margin-right: auto;
+            width: 800px;*/
+        }
+    </style>
+</head>
+
+<body>
+
+  <div id = "logo"><img src="punylablogo.png" alt="Puny Labs"></div>
+
+  <div id = "navBar">
+    <a href="../index.html"><img src="../images/PL_home.png" alt="Home"></a>
+    <a href="foreverFalling.html"><img src="../images/PL_play.png" alt="Play"></a>
+  </div>
+<br />
+<div id = "mygame"></div>
+<script type="text/javascript">
+
+
+    var config = {
+        type: Phaser.AUTO,
+        width: 800,
+        height: 600,
+        scale: {
+          parent: 'mygame',
+          autoCenter: Phaser.Scale.CENTER_BOTH
+        },
+        physics: {
+            default: 'arcade',
+            arcade: {
+                gravity: { y: 0 },
+                debug: false
+            }
+        },
+
+        scene: [LoadScene, CutScene, MenuScene, TitleScene, OptionsScene, JumpingScene, GameScene, KillScene, EndScene]
+    };
+
+    var game = new Phaser.Game(config);
+
+</script>
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+</body>
+</html>

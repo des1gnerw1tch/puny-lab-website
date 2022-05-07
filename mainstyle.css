@@ -1,41 +1,48 @@
 
-body	{
-	background-color: black;
-	font-size: 20px;
-	color: white;
-	font-family: "Georgia", Serif;
-}
-#logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 360px;
-}
-#navBar	{
-	/*background-color: black;*/
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1700px;
-	border-style: solid;
-	border-bottom: 5px solid red;
-}
-#teaser	{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width: 1641px;
-	height: 1041px;
-	margin-top: 5em;
+body {
+    background-image: url("images/neo_tile.png");
+    background-color: black;
+    background-size: 200px 200px;
+    font-size: 20px;
+    color: white;
+    font-family: "Lucida Console", Courier, monospace;
+    /*font-family: "Georgia", Serif;*/
 }
 
-a{
-	text-decoration: none;
-	font-size: 30px;
-	color: blue;
-	text-align: center;
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
 }
-a:visited{
-	text-decoration: none;
-	color: blue;
+
+#navBar {
+    /*background-color: black;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1700px;
+    border-style: solid;
+    border-bottom: 5px solid red;
 }
+
+#teaser {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1641px;
+    height: 1041px;
+    margin-top: 5em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+
+    a:visited {
+        text-decoration: none;
+        color: blue;
+    }

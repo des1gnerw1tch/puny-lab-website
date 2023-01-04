@@ -30,9 +30,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1641px;
-    height: 1041px;
-    margin-top: 5em;
+    width: 1562px;
+    height: 977.5px;
+    margin-top: 3em;
+    border: 5px solid black;
 }
 
 a {

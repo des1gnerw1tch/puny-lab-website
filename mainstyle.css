@@ -36,6 +36,18 @@ body {
     border: 5px solid black;
 }
 
+#instaTeaser {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    border: 5px solid black;
+    max-width:540px; 
+    min-width:326px; 
+    padding:0; 
+    width:99.375%
+}
+
 a {
     text-decoration: none;
     font-size: 30px;
